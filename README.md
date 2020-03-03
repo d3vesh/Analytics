@@ -1,14 +1,21 @@
 # Analysis of Fantasy Premier League
 ---
-** 
+*Analytical Approach to Fanatasy Premier League* 
 <br>
 ### Table of Contents
-[TOC]
+1. Introduction
+2. Terms Used
+3. Tools, Installations and Versions
+4. Built With
+5. Project Status
+6. Conclusion
+
 
 
 <br>
+
 ### Introduction
-This project involves process like Data Engineering (cleaning, formatting, storing, etc), Data Visualization
+This project involves process like Data Engineering (cleaning, formatting, storing, etc), Data Visualization and Data Analysis with *pyhton*.
 
 **Hypothesis/Problem**: Most people playing Fantasy Premier League often select squad based on thier personal favourite or are biased to select the in-form players or hottest teams in the league *(mainly from Big 6)*. Rather than focusing on actualplayer stats and selecting ones who are consistently doing well compared to their lower price (here price: value assigned to each player in FPL) and hence miss out a chance to perform better than most of the players on an average.
 <br>
@@ -24,19 +31,24 @@ This project involves process like Data Engineering (cleaning, formatting, stori
 **Player Return on Investment (ROI)**: Player Fantasy points / Player Fantasy Cost (in other words our total points return per 1 million Fantasy-dollars spent on a player.)
 
 **ICT Index**: The ICT Index is a feature in Fantasy Premier League, offering insight to help guide your strategies and selections. A football statistical index, it has been developed specifically to give a verdict on a player as an FPL asset.   It uses match event data to generate a single score for three key areas – Influence, Creativity and Threat. These figures then combine to create an individual’s ICT Index score.
+
+**Fixture Difficulty Ratio**: Rating provided by FPL indicating the difficulty level of a particular fixture by considering opponent teams strength, Home/Away Fixture and other factors which ranges between **1 to 5**.
+
 <br>
+
 ### Tools, Installations and Versions
 
-**Python** - [Python 3.7.6](http://https://www.python.org/downloads/release/python-376/ "[Python 3.7.6]")
-    - Numpy 1.18.1 
-    - Pandas  1.0.1
-    - Matplotlib 3.1.3
-    - Seaborn 0.9.0
-    - Requests 2.22.0
-    - Json 2.0.9
-[FPL API](https://fantasy.premierleague.com/api/bootstrap-static/ "[FPL API]")
++ **Python** - [Python 3.7.6](http://https://www.python.org/downloads/release/python-376/ "[Python 3.7.6]")
+    + Numpy 1.18.1 
+    + Pandas  1.0.1
+    + Matplotlib 3.1.3
+    + Seaborn 0.9.0
+    + Requests 2.22.0
+    + Json 2.0.9
++ [FPL API](https://fantasy.premierleague.com/api/bootstrap-static/ "[FPL API]")
 
 <br>
+
 ### Built With
 Jupyter : file type (.ipynb)
 
